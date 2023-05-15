@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Encabezado con el nombre del objeto -->
+    <TextView
+        android:id="@+id/textview_objeto_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <!-- Imagen del objeto -->
+    <ImageView
+        android:id="@+id/imageview_objeto_imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:padding="16dp" />
+
+    <!-- Descripción del objeto -->
+    <TextView
+        android:id="@+id/textview_objeto_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="16dp" />
+
+    <!-- Botón para volver a la lista de objetos -->
+    <Button
+        android:id="@+id/button_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volver" />
+
+</LinearLayout>

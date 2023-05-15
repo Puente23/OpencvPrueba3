@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OpencvPrueba3</string>
+    <string name="volver">volver</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="menu_item_1_title">Detalles</string>
+    <string name="menu_item_2_title">Maíz</string>
+    <string name="menu_item_3_title">Conteo</string>
+    <string name="texto">La aplicación móvil Java para conteo e identificación es una herramienta diseñada para facilitar la labor de contabilizar y reconocer objetos mediante la cámara de un dispositivo móvil. Esta aplicación permite tomar una foto de un objeto y procesarla para identificar y contar los objetos presentes en la imagen. Además, la aplicación ofrece una lista de objetos previamente registrados para poder realizar un conteo específico de ellos. La aplicación es fácil de usar y puede ser útil para diferentes propósitos, como el conteo de granos, semillas, animales, plantas, entre otros.</string>
+</resources>
